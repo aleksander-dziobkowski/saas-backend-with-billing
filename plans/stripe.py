@@ -34,8 +34,8 @@ def create_checkout_session(request, plan_id):
             'quantity': 1,
         }],
         mode='subscription',
-        success_url=os.getenv('DOMAIN') + '/success?session_id={CHECKOUT_SESSION_ID}',
-        cancel_url=os.getenv('DOMAIN') + '/cancel/',
+        success_url=os.getenv('DOMAIN') + '/plans/',
+        cancel_url=os.getenv('DOMAIN') + '/plans/',
     )
 
     return JsonResponse({'url': session.url, 'sessionId': session.id})
