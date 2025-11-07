@@ -4,15 +4,15 @@
 SaaS backend with billin built with Django REST Framework, Stripe, and Celery.
 This project provides a solid foundation for any subscription-based application, where users gain access to premium features through active plans.
 
-👤 User Accounts – registration, login, and roles (user / admin)
-👤 Admin Panel – manage users, plans, and subscriptions
-💳 Plans & Subscriptions – Free / Pro / Enterprise tiers
-💳 Stripe Integration – real subscription checkout, renewals, and cancellations
-🗂️ PDF Invoices – automatically generated and emailed to the user
-🗂️ Email Notifications – subscription confirmations and payment receipts
-⚙️ Webhook Handling – automatic updates on subscription lifecycle events
-⚙️ Celery / Redis – background automation for billing, emails, and invoice generation
-⚙️ API Documentation – browsable DRF interface
+👤 **User Accounts – registration, login, and roles (user / admin)**
+👤 **Admin Panel – manage users, plans, and subscriptions**
+💳 **Plans & Subscriptions – Free / Pro / Enterprise tiers**
+💳 **Stripe Integration – real subscription checkout, renewals, and cancellations**
+🗂️ **PDF Invoices – automatically generated and emailed to the user**
+🗂️ **Email Notifications – subscription confirmations and payment receipts**
+⚙️ **Webhook Handling – automatic updates on subscription lifecycle events**
+⚙️ **Celery / Redis – background automation for billing, emails, and invoice generation**
+⚙️ **API Documentation – browsable DRF interface**
 
 ## ⚙️1️⃣ Copy and edit the .env file
 Copy the example environment file:
