@@ -1,0 +1,29 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+
+# === Django specific ===
+*.log
+*.mo
+db.sqlite3
+media/
+staticfiles/
+
+# === Environments ===
+.env
+venv/
+
+# System
+.DS_Store
+Thumbs.db
+
+# === Pytest / Coverage ===
+.pytest_cache/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.iml
+
+
+
